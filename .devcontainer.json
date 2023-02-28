@@ -1,0 +1,15 @@
+{
+	"name": "Dart (Community)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "2" }
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dart-code.dart-code"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}
