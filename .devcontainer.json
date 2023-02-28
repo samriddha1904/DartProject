@@ -1,15 +1,13 @@
 {
-	"name": "Dart (Community)",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "2" }
-	},
+    "image": "cirrusci/flutter:beta",
+	"forwardPorts": [
+		3000
+	],
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"dart-code.dart-code"
+				"Dart-Code.flutter"
 			]
 		}
-	},
-	"remoteUser": "vscode"
+	}
 }
